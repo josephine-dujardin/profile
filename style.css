@@ -1,0 +1,71 @@
+body{
+    background: rgb(245,245,245);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;
+  }
+
+  h1{
+    font-family: 'Josefin Sans', cursive;
+    color: #1f3e55;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+  }
+
+  ul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(236, 106, 160);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .container {
+  display  : block;
+  padding: 40px;
+  font-weight: lighter;
+  text-align: center;
+  background-color: rgb(204, 194, 182);
+  margin: 10%;
+}
+
+.card-white ul {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+.card-white a:hover {
+  color: white;
+}
+
+.card-white a {
+  color:rgb(163, 160, 155);
+}
+
+.card-white {
+  display: block;
+  padding: 40px;
+  background-color: rgb(204, 194, 182);
+  color: rgb(102, 88, 88);
+  text-align: center;
+  height: 100px;
+  margin: 10%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
